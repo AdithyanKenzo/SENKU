@@ -81,7 +81,7 @@ mongoose.connect(encodeURI(process.env.MONGO_URI), {
 })
 
 db.once('open', () => {
-    client.log(chalk.green('Connected to Database!'))
+    client.log(chalk.green('Ready To Slay Bitch!'))
     client.getAuthInfo(client.config.session).then((session) => {
         if (session) client.loadAuthInfo(session)
         start()
