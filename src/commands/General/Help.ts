@@ -37,10 +37,10 @@ export default class Command extends BaseCommand {
                 }
             }
             let text = `
-            🤍 Konichiwa senpai 🤍
+            🧪 Sup Bitch 🧪
             ╭─「(づ￣ 3￣)づ」
             │⋊ ᴜꜱᴇʀ: *${M.sender.username}*
-            │⋊ ɴᴀᴍᴇ: ᖇᎥᑎ
+            │⋊ ɴᴀᴍᴇ: Ishigami Senku
             │⋊ ᴘʀᴇꜰɪx: ${this.client.config.prefix}
             │⋊ ᴏᴡɴᴇʀ: <${this.client.config.prefix}mod>
             ╰────────────┈平和                            \n\n`
@@ -111,7 +111,7 @@ const weeb = [
    const misc = [
     {title: 'retrieve', rowId:"rowid1"},
     {title: 'hi', rowId:"rowid1"},
-    {title: 'rin', rowId:"rowid1"},
+    {title: 'senku', rowId:"rowid1"},
    ]
    const education = [
     {title: 'calculator', rowId:"rowid1"},
@@ -198,10 +198,10 @@ const weeb = [
 
 ]
 const txt = '\n' +
-    ' 🤍 Konichiwa senpai 🤍\n' +
+    '🧪 Sup Bitch 🧪\n' +
     '╭─「(づ￣ 3￣)づ」\n' +
     `│⋊ ᴜꜱᴇʀ: *${M.sender.username}*\n` +
-    '│⋊ ɴᴀᴍᴇ:. ᖇᎥᑎ\n' +
+    '│⋊ ɴᴀᴍᴇ:. Ishigami Senku\n' +
     '│⋊ ᴘʀᴇꜰɪx: #\n' +
     '│⋊ ᴏᴡɴᴇʀ: <#mod>\n' +
     '╰────────────┈平和                            \n' +
@@ -243,12 +243,12 @@ const txt = '\n' +
     '• ```calculator, covid, define, elements, github, urbandictionary, weather```\n' +
     '\n' +
     ' \n' +
-    ' ──❅┈[ ISHTAR ᗷᗝ丅 ]┈❅───\n' +
+    ' ──❅┈[ SENKU BOT ]┈❅───\n' +
     '┌────────────┈❅\n' +
-    '│   🧨 ᖇᎥᑎ\n'  +
+    '│   🧨 SENKU\n'  +
     '│   ©️ Synthesized Infinity Botto\n' +
     '└────────────┈⁂\n' +
-    '❅┈[𝐇𝐚𝐯𝐞 𝐆𝐫𝐞𝐚𝐭 𝐃𝐚𝐲]┈❅\n'             +
+    '❅┈[Wanna Learn Chemistry Today]┈❅\n'             +
     '🚀 *Note: Use #help <command_name> to view the command info*'
    const button:any = {
     buttonText: 'Help',
