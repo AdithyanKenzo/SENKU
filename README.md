@@ -1,5 +1,5 @@
 <div align="center">
-<a href="https://ibb.co/KWkc3Gw"><img src="https://i.ibb.co/9Tds1D2/anime-dr-stone-senku-ishigami-hd-wallpaper-preview.jpg" alt="anime-dr-stone-senku-ishigami-hd-wallpaper-preview" border="0"></a>
+<a href="https://ibb.co/KWkc3Gw"><img src="https://i.ibb.co/6FxcfZB/ddf604h-fec4abb5-e6b5-4f26-8868-587d1fb0525f.png" alt="anime-dr-stone-senku-ishigami-hd-wallpaper-preview" border="0"></a>
 
 #**SENKU : ANIME THEMED WHATSAPP BOT WITH RICH FEATURES BASED ON RIN**
 
