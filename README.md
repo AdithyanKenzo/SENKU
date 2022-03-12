@@ -33,7 +33,7 @@ Button : If you are deploying from a fork
 ## 💻 Deploy/Hosting Guide
 
 -   Section Moved to
-    [SENKU-Guides](https://github.com/Oreki-san/Eru-Guide/blob/main/README.md)
+    [SENKU-Guides](https://github.com/AdithyanKenzo/SENKU/blob/main/README.md)
 
 ## 🍥 Features of the Repo
 
