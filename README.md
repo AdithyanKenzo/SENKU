@@ -1,6 +1,6 @@
 <div align="center">
 <a href="https://ibb.co/9Tds1D2"><img src="https://i.ibb.co/9Tds1D2/anime-dr-stone-senku-ishigami-hd-wallpaper-preview.jpg" alt="anime-dr-stone-senku-ishigami-hd-wallpaper-preview" border="0"></a>
-# **SENKU : ANIME THEMED WHATSAPP BOT WITH RICH FEATURES BASED ON RIN**
+# SENKU : ANIME THEMED WHATSAPP BOT WITH RICH FEATURES BASED ON RIN**
 
 [![CodeFactor](https://www.codefactor.io/repository/github/oreki-san/rin/badge)](https://www.codefactor.io/repository/github/oreki-san/rin)
 
