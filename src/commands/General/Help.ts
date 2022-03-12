@@ -248,7 +248,7 @@ const txt = '\n' +
     '│   🧨 SENKU\n'  +
     '│   ©️ Synthesized Infinity Botto\n' +
     '└────────────┈⁂\n' +
-    '❅┈[Wanna Learn Chemistry Today]┈❅\n'             +
+    '❅┈[Wanna Learn Chemistry Today?]┈❅\n'             +
     '🚀 *Note: Use #help <command_name> to view the command info*'
    const button:any = {
     buttonText: 'Help',
