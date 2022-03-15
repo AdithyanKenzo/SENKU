@@ -277,12 +277,12 @@ this.client.sendMessage(M.from,button,MessageType.listMessage)
                     //             return void this.client.sendMessage(M.from, { url: rin }, MessageType.video, {quoted:M.WAMessage,
 //             mimetype: Mimetype.gif,
 //             caption: `${text}
-//  ──❅┈[ ᖇᎥᑎ ᗷᗝ丅 ]┈❅───
+//  ──❅┈[ SENKU BOT ]┈❅───
 // ┌────────────┈❅
-// │   🧨 ᖇᎥᑎ
+// │   🧨 SENKU
 // │   ©️ Synthesized Infinity Botto
 // └────────────┈⁂
-// ❅┈[𝐇𝐚𝐯𝐞 𝐆𝐫𝐞𝐚𝐭 𝐃𝐚𝐲]┈❅
+// ❅┈[Wanna Learn Chemistry For Today?]┈❅
 // 🎗 *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*` }
 //             )
 //         }
