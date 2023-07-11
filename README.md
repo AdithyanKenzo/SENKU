@@ -18,6 +18,41 @@ Button : If you are deploying from a fork
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
+  <h1>GitHub Commits</h1>
+  <div id="commits"></div>
+
+  <script>
+    // GitHub repository information
+    const username = 'AdithyanKenzo';
+    const repository = 'SENKU';
+    const contributors = ['NemasisDarkX'];
+
+    // Fetch commits for each contributor
+    const fetchCommits = async () => {
+      const commitsElement = document.getElementById('commits');
+
+      for (const contributor of contributors) {
+        const apiUrl = `https://api.github.com/repos/${username}/${repository}/commits?author=${contributor}`;
+
+        try {
+          const response = await fetch(apiUrl);
+          const data = await response.json();
+          const commitCount = data.length;
+
+          // Display the number of commits for the contributor
+          commitsElement.innerHTML += `<p>Commits by ${contributor}: ${commitCount}</p>`;
+        } catch (error) {
+          console.error(`Error fetching commits for ${contributor}:`, error);
+          commitsElement.innerHTML += `<p>Error fetching commits for ${contributor}</p>`;
+        }
+      }
+    };
+
+    // Call the fetchCommits function
+    fetchCommits();
+  </script>
+
+
 </div><br/>
 <br/>
 
@@ -56,37 +91,4 @@ Button : If you are deploying from a fork
 
 ![Chitoge][![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ShineiIchijo&repo=Chitoge&theme=buefy)](https://github.com/ShinNouzen/Chitoge)
 
-  <h1>GitHub Commits</h1>
-  <div id="commits"></div>
-
-  <script>
-    // GitHub repository information
-    const username = 'AdithyanKenzo';
-    const repository = 'SENKU';
-    const contributors = ['NemasisDarkX'];
-
-    // Fetch commits for each contributor
-    const fetchCommits = async () => {
-      const commitsElement = document.getElementById('commits');
-
-      for (const contributor of contributors) {
-        const apiUrl = `https://api.github.com/repos/${username}/${repository}/commits?author=${contributor}`;
-
-        try {
-          const response = await fetch(apiUrl);
-          const data = await response.json();
-          const commitCount = data.length;
-
-          // Display the number of commits for the contributor
-          commitsElement.innerHTML += `<p>Commits by ${contributor}: ${commitCount}</p>`;
-        } catch (error) {
-          console.error(`Error fetching commits for ${contributor}:`, error);
-          commitsElement.innerHTML += `<p>Error fetching commits for ${contributor}</p>`;
-        }
-      }
-    };
-
-    // Call the fetchCommits function
-    fetchCommits();
-  </script>
 
